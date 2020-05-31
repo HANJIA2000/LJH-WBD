@@ -2,7 +2,7 @@
 * @Author: HJ
 * @Date:   2020-05-30 15:55:27
 * @Last Modified by:   HJ
-* @Last Modified time: 2020-05-31 20:37:35
+* @Last Modified time: 2020-06-01 01:17:59
 */
 .container{
 	height: 101px;
@@ -168,16 +168,45 @@ form{
 .container-1 ul #last{
 	border-right: none;
 }
+.between1-content{
+	width: 1200px;
+	height: 77px;
+	margin: 0 auto;
+}
+.between1-content span{
+	display: inline-block;
+}
+.gift{
+	margin-top:37px; 
+	float: left;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+}
+.all{
+	margin-top: 44px;
+	float: right;
+	margin-right: 31px;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(165,165,165,1);
+}
 .container-2{
 	width: 1200px;
 	margin: 0 auto;
+	height: 
 }
 .container-2 div{
 	display: inline-block;
 	float: left;
 	margin-left: 15px;
+	margin-bottom: 15px;
 	width: 228px;
 	height: 270px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
 }
 .container-2 .picture1{
 	margin: 0px;
@@ -197,13 +226,15 @@ form{
 	margin-bottom: 18px;
 }
 .container-2 div p{
-	margin-bottom: 26px;
+	margin-left: 23px;
 	font-size:12px;
 	font-family:Microsoft YaHei;
 	font-weight:400;
 	color:rgba(255,124,45,1);
 }
 .container-2 div span{
+	display: inline-block;
+	margin-left: 23px;
 	font-size:14px;
 	font-family:Microsoft YaHei;
 	font-weight:400;
@@ -211,6 +242,8 @@ form{
 	line-height:20px;
 }
 .container-2 div p span{
+	display: inline;
+	margin-left: 0px;
 	font-size:12px;
 	font-family:Microsoft YaHei;
 	font-weight:400;
@@ -231,14 +264,73 @@ form{
 	float: left;
 	margin-bottom: 24px;
 }
+.between2-content span{
+	float: left;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+}
+.between2-content{
+	width: 1200px;
+	margin: 0 auto;
+	height: 62px;
+	line-height: 62px;
+}
+.between2-content ul{
+	float: left;
+	margin-left: 221px;
+}
+.between2-content ul li{
+	margin-left: 70px;
+	float: left;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+}
+.between2-content ul li a:hover{
+	color: #00A4FF;
+}
+.between2-content  a{
+	color:rgba(165,165,165,1);
+}
+.between2-content a span{
+	float: right;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(165,165,165,1);
+}
+.container-3 div{
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+}
+.container-3 div span{
+	display: inline-block;
+	margin-left: 23px;
+	margin-bottom: 38px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(5,5,5,1);
+	line-height:20px;
+}
+.container-3 div .less{
+	margin-bottom: 18px;
+}
 .container-3 div p{
 	margin-bottom: 26px;
+	margin-left: 23px;
 	font-size:12px;
 	font-family:Microsoft YaHei;
 	font-weight:400;
 	color:rgba(255,124,45,1);
 }
+.container-3 div img{
+	margin-bottom: 24px;
+}
 .container-3 div p span{
+	margin-left: 0px;
 	font-size:12px;
 	font-family:Microsoft YaHei;
 	font-weight:400;
@@ -246,6 +338,19 @@ form{
 }
 .container-3 .picture5{
 	margin-left: 0px;
+}
+.between-content{
+	height: 87px;
+	width: 1200px;
+	line-height: 87px;
+	margin: 0 auto;
+}
+.between-content p{
+	text-align: left;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(73,73,73,1);
 }
 .container-4{
 	width: 1200px;
@@ -258,14 +363,98 @@ form{
 }
 .container-4 .js{
 	margin-left: 0px;
+	position: relative;
+}
+.teacher-photo{
+	position: relative;
+}
+.resume{
+	position: absolute;
+	top: 198px;
+	left: 0px;
+	padding:21px 28px 18px 25px; 
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+	background-color: rgba(0,0,0,0.5);
+}
+.resume .name{
+	font-size:18px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+}
+.resume .direction{
+	padding-left: 15px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+	line-height:20px;
 }
 .container-5{
 	width: 1200px;
+	height: 293px;
 	margin: 0 auto;
 	padding-top: 124px;
 }
 .container-5 div{
 	float: left;
+}
+.container-5 div a{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(0,164,255,1);
+	line-height:18px;
+}
+.container-5 div a span{
+	padding: 11px 30px 10px 27px;
+	border: 2px solid rgba(0,164,255,1);
+}
+.container-5 div ul li{
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+}
+#yellow{
+	position: absolute;
+	top: 99px;
+	left: 25px;
+	font-size:30px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(249,225,3,1);
+	line-height:36px;
+}
+#white{
+	position: absolute;
+	top: 130px;
+	left: 25px;
+	font-size:27.2px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:#FFFFFF;
+	line-height:36px;
+}
+.click{
+	position: absolute;
+	top: 173px;
+	left: 28px;
+	border: 1px solid #F9E103;
+	width: 87px;
+	height: 25px;
+	text-align: center;
+	font-size:13px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(249,225,3,1);
+	line-height:20px;
 }
 .div0{
 	margin-left: 23px;
@@ -286,6 +475,7 @@ form{
 	color:rgba(0,164,255,1);
 }
 #mudi{
+	margin-bottom: 33px;
 	width:372px;
 	height:12px;
 	font-size:12px;
@@ -296,11 +486,29 @@ form{
 	margin-top: 35px;
 }
 #about{
+	margin-bottom: 15px;
 	font-size:16px;
 	font-family:Microsoft YaHei;
 	font-weight:400;
 	color:rgba(51,51,51,1);
 	line-height:21px;
+}
+#guide{
+	margin-bottom: 15px;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+}
+#partner{
+	margin-bottom: 15px;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+}
 }
 .container-5 div ul li{
 	font-size:12px;
