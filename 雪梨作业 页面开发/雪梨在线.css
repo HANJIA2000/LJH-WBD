@@ -1,0 +1,317 @@
+/*
+* @Author: HJ
+* @Date:   2020-05-30 15:55:27
+* @Last Modified by:   HJ
+* @Last Modified time: 2020-05-31 20:37:35
+*/
+.container{
+	height: 101px;
+	width: 1200px;
+	line-height: 101px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	margin-top:33px; 
+	line-height:39px;
+	font-size:40px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,164,255,1);	
+}
+.header-ul{
+	float: left;
+	margin-top: 42px;
+	margin-left: 73px;
+}
+.header-ul li{
+	float: left;
+	padding-bottom: 10px;
+	line-height:18px;
+	font-size:18px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	text-align: center;
+}
+.header-ul li:hover{
+	border-bottom: 2px solid rgba(0,164,255,1);
+}
+.header-ul li a{
+	
+	color:rgba(5,5,5,1);
+}
+.header-ul #homepage{
+	width: 56px;
+}
+.header-ul #course{
+	width: 56px;
+	margin-left: 28px;
+}
+.header-ul #plan{
+	width: 95px;
+	margin-left: 28px;
+}
+form{
+	display: inline-block;
+	margin-right: 31px;
+	height: 40px;
+	float: left;
+	border: 1px dashed black;
+}
+.search{
+	width: 67px;
+	height: 11px;
+	padding: 13px 272px 12px 19px;
+	border: 2px solid rgba(0,164,255,1);
+	float: left;
+}
+.submit{
+	vertical-align: bottom;
+	float: left;
+	width: 50px;
+	height: 40px;
+	background-image: url('./images/search.jpg');
+	border: none;
+}
+.header-left{
+	height: 40px;
+	float: right;
+	margin-right: 12px;
+	margin-top: 31px;
+}
+.small-text a{
+	float: right;
+	margin-top: 13px;
+	line-height:12px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+}
+.banner{
+	height: 419px;
+	background-color:rgba(28,3,108,1); 
+	position: relative;
+}
+.banner .container{
+	height: 419px;
+	background: url('images/banner_03.jpg') no-repeat;
+}
+.banner .container ul{
+	float: left;
+	width: 190px;
+	position: absolute;
+	background:rgba(0,0,0,1);
+}
+.banner .container ul span{
+	float: right;
+	margin-right: 21px;
+}
+.banner .container ul li{
+	height: 46.7px;
+	margin-left: 20px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	line-height:44px;
+}
+.banner .container ul a:hover{
+	color: rgba(0,164,255,1);
+}
+.banner .container ul #first{
+	height: 46.4px;
+}
+.banner .container ul li a{
+	width: 190px;
+	color:#FFFFFF;
+}
+
+.container-1{
+	width:1200px;
+	height:60px;
+	margin-top: 8px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+	line-height: 60px;
+}
+.container-1 ul{
+	float: left;
+	line-height: 60px;
+}
+.container-1 ul li{
+	float: left;
+	padding-left: 34px;
+	margin-top: 21px;
+	border-right: 1px solid rgba(191,191,191,1);
+	line-height: 18px;
+	width: 88px;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+}
+.container-1 ul li a{
+	color: #050505;
+}
+.container-1 ul li a:hover{
+	color:rgba(0,164,255,1);
+}
+.container-1 span{
+	float: right;
+	margin-right: 61px;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+}
+.container-1 span a{
+	color:rgba(0,164,255,1);
+}
+.container-1 ul #last{
+	border-right: none;
+}
+.container-2{
+	width: 1200px;
+	margin: 0 auto;
+}
+.container-2 div{
+	display: inline-block;
+	float: left;
+	margin-left: 15px;
+	width: 228px;
+	height: 270px;
+}
+.container-2 .picture1{
+	margin: 0px;
+}
+.container-2 div img{
+	float: left;
+	margin-bottom: 24px;
+}
+.container-2 div span{
+	width:185px;
+	height:34px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(5,5,5,1);
+	line-height:20px;
+	margin-bottom: 18px;
+}
+.container-2 div p{
+	margin-bottom: 26px;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,124,45,1);
+}
+.container-2 div span{
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(5,5,5,1);
+	line-height:20px;
+}
+.container-2 div p span{
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color: #999999;
+}
+.container-3{
+	width: 1200px;
+	margin: 0 auto;
+}
+.container-3 div{
+	float: left;
+	display: inline-block;
+	margin-left: 15px;
+	width:228px;
+	height: 270px;
+}
+.container-2 div img{
+	float: left;
+	margin-bottom: 24px;
+}
+.container-3 div p{
+	margin-bottom: 26px;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,124,45,1);
+}
+.container-3 div p span{
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color: #999999;
+}
+.container-3 .picture5{
+	margin-left: 0px;
+}
+.container-4{
+	width: 1200px;
+	margin:0 auto; 
+	padding-bottom: 73px;
+}
+.container-4 div{
+	float: left;
+	margin-left: 15px;
+}
+.container-4 .js{
+	margin-left: 0px;
+}
+.container-5{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 124px;
+}
+.container-5 div{
+	float: left;
+}
+.div0{
+	margin-left: 23px;
+}
+.div1{
+	margin-left: 272px;
+}
+.div2{
+	margin-left:146px; 
+}
+.div3{
+	margin-left: 121px;
+}
+#logo2{
+	font-size:36px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+}
+#mudi{
+	width:372px;
+	height:12px;
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	line-height:18px;
+	margin-top: 35px;
+}
+#about{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+}
+.container-5 div ul li{
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+
+}
+.download{
+	width: 120px;
+	height: 36px;
+	margin-top: 33px;
+}
